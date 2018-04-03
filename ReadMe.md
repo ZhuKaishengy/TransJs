@@ -94,3 +94,10 @@ isELIgnored="false"
 7. controller中的接口返回jsp页面，通过设置consumes指定接收参数类型，produces指定返回值类型，
 若consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE，在方法参数中加入对象接受
 在方法参数中加入Map<String,Object> map承载返回参数！
+
+8. tomcat指定jdk
+```txt
+修改setclasspath.bat文件加入
+JAVA_HOME=D:\environment\Java\jdk1.8.0_151
+JRE_HOME=D:\environment\Java\jdk1.8.0_151\jre
+```
